@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <title>Test</title>
+    <p id="demo"></p>
+    <h1 id="lol"></h1>
+    <script type="text/javascript">
+        document.getElementById("lol").innerHTML=5+5;   //by id
+        document.getElementById("demo").innerHTML=10+10;    //by id
+        document.write(2+2);    //should only use for testing
+        window.alert(1+1);  //keyword 'window' can be  skipped. alert() works just fine
+        console.log(3+5);   //for debugging purpose
+    </script>
+    <button type="button" onclick="document.write(10+10)">Try me</button>
+    <button onclick="window.print(4+4)">Try </button>   <!--literally print the page in .pdf-->
+
+</html>
